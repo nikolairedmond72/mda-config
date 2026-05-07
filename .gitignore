@@ -7,3 +7,5 @@ coverage/
 *.log
 .codex/*
 ai-doc/*
+AGENTS.md
+.vscode/settings.json
