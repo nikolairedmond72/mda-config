@@ -2,6 +2,10 @@
 
 All notable changes to `@snoai/mda-config` are documented here. The project follows Semantic Versioning and pins the MDA spec version it targets.
 
+## [1.0.1] — 2026-05-07
+
+- ci: switch to npm Trusted Publishing (GitHub OIDC); no source changes.
+
 ## [1.0.0] — 2026-05-07
 
 - mda-spec: v1.0
