@@ -1,0 +1,17 @@
+{
+  "name": "@snoai/mda-config-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "workspaces": [
+    "packages/typescript"
+  ],
+  "scripts": {
+    "test": "bun --filter @snoai/mda-config test",
+    "build": "bun --filter @snoai/mda-config build",
+    "typecheck": "bun --filter @snoai/mda-config typecheck",
+    "release": "bash scripts/release.sh",
+    "release:dry": "bash -c 'cd packages/typescript && npm publish --dry-run'"
+  }
+}
