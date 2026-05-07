@@ -24,5 +24,3 @@ jobs:
       - run: bun run build
       - run: npm publish --provenance
         working-directory: packages/typescript
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
