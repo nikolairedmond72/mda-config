@@ -9,3 +9,5 @@ coverage/
 ai-doc/*
 AGENTS.md
 .vscode/settings.json
+packages/python/src/snoai_mda_config/*
+packages/python/tests/__pycache__/*
